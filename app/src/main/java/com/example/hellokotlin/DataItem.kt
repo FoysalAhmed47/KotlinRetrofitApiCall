@@ -1,0 +1,9 @@
+package com.example.hellokotlin
+
+data class DataItem(
+
+    val body: String,
+    val id: Int,
+    val title: String,
+    val userId: Int
+)
